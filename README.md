@@ -14,14 +14,14 @@ You'll make use of the [World Bank Indicators API](https://datahelpdesk.worldban
 
 **Bonus Questions:** After doing a basic request to get all records, you can attempt these exercises to get additional practice using query parameters.
 
-1. Adjust your request so that it returns data just for the United States.
+✅1. Adjust your request so that it returns data just for the United States.
 
-2. Adjust your request so that it returns data just for the United States for the year 2021.
+✅. Adjust your request so that it returns data just for the United States for the year 2021.
 
-3. Adjust your request so that it returns data just for the United States for the years 2000 through 2021.
+✅3. Adjust your request so that it returns data just for the United States for the years 2000 through 2021.
 
-4. Adjust your request so that it returns data for the United States and Canada for the years 2000 through 2021.
+✅4. Adjust your request so that it returns data for the United States and Canada for the years 2000 through 2021.
 
-5. If you haven't already done so and you would like to get some additional practice using loops, use the page parameter in order to pull all records. Do not change the value of the per_page parameter. You will likely need to utilize a loop of some kind in order to pull all records.
+✅5. If you haven't already done so and you would like to get some additional practice using loops, use the page parameter in order to pull all records. Do not change the value of the per_page parameter. You will likely need to utilize a loop of some kind in order to pull all records.
 
-6. The endpoint "http://api.worldbank.org/v2/indicator" will return information about all available indicators. See [Indicator API Queries](https://datahelpdesk.worldbank.org/knowledgebase/articles/898599-indicator-api-queries). Use this endpoint to find the code for the "Public Expenditure on Education (% GDP)" indicator.
+✅6. The endpoint "http://api.worldbank.org/v2/indicator" will return information about all available indicators. See [Indicator API Queries](https://datahelpdesk.worldbank.org/knowledgebase/articles/898599-indicator-api-queries). Use this endpoint to find the code for the "Public Expenditure on Education (% GDP)" indicator.
