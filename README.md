@@ -4,13 +4,13 @@ In this exercise, you'll redo the data gathering phase of the UNData Exploration
 
 You'll make use of the [World Bank Indicators API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation). Note that this API does not require an API key. Before attempting the exercise, it would be a good idea to skim through the Documentation page and to check out the [Basic Call Structure article](https://datahelpdesk.worldbank.org/knowledgebase/articles/898581).
 
-1. Use the API to get all available data for the _GDP per capita, PPP (constant 2017 international $)_ indicator. Hint: this indicator has code "NY.GDP.PCAP.PP.KD". Adjust the query parameters so that you can retrieve all available rows. Convert the results to a DataFrame.
+✅1. Use the API to get all available data for the _GDP per capita, PPP (constant 2017 international $)_ indicator. Hint: this indicator has code "NY.GDP.PCAP.PP.KD". Adjust the query parameters so that you can retrieve all available rows. Convert the results to a DataFrame.
 
-2. Now, use the API to get all available data for _Life expectancy at birth, total (years)_. This indicator has code "SP.DYN.LE00.IN". Again, convert the results to a DataFrame.
+✅2. Now, use the API to get all available data for _Life expectancy at birth, total (years)_. This indicator has code "SP.DYN.LE00.IN". Again, convert the results to a DataFrame.
 
-3. Merge the two results DataFrames together. You may want to rename or drop columns prior to merging.
+✅3. Merge the two results DataFrames together. You may want to rename or drop columns prior to merging.
 
-4. You can also get more information about the available countries (region, capital city, income level classification, etc.) by using the [Country API](https://datahelpdesk.worldbank.org/knowledgebase/articles/898590-country-api-queries). Use this API to pull in all available data. Merge this with your other datasets. Use this to now remove the rows that correspond to regions and not countries.
+✅4. You can also get more information about the available countries (region, capital city, income level classification, etc.) by using the [Country API](https://datahelpdesk.worldbank.org/knowledgebase/articles/898590-country-api-queries). Use this API to pull in all available data. Merge this with your other datasets. Use this to now remove the rows that correspond to regions and not countries.
 
 **Bonus Questions:** After doing a basic request to get all records, you can attempt these exercises to get additional practice using query parameters.
 
